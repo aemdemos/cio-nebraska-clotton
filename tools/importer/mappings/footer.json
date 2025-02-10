@@ -6,7 +6,8 @@
     "adBlocker": true,
     "gdprBlocker": true,
     "delay": 0,
-    "screenshot": false
+    "screenshot": false,
+    "sectionMappingLimit": 10
   },
   "autoDetect": true,
   "template": {
@@ -17,7 +18,7 @@
   "mapping": [
     {
       "id": "footer-1",
-      "path": "/footer/index",
+      "path": "/footer",
       "sections": [
         {
           "id": "footer-1-1",
@@ -41,7 +42,7 @@
               "x": 0,
               "y": 3775,
               "mapping": "footer",
-              "customBlockName": "aifooter"
+              "customBlockName": "aifooter-xq1tf8-953139808"
             }
           ]
         }
