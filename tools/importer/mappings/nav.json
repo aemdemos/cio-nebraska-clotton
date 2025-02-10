@@ -6,7 +6,8 @@
     "adBlocker": true,
     "gdprBlocker": true,
     "delay": 0,
-    "screenshot": false
+    "screenshot": false,
+    "sectionMappingLimit": 10
   },
   "autoDetect": true,
   "template": {
@@ -17,7 +18,7 @@
   "mapping": [
     {
       "id": "nav-1",
-      "path": "/nav/index",
+      "path": "/nav",
       "sections": [
         {
           "id": "nav-1-1",
@@ -36,7 +37,7 @@
               "x": 0,
               "y": 0,
               "mapping": "header",
-              "customBlockName": "aiheader"
+              "customBlockName": "aiheader-xq1tf8-823498960"
             }
           ]
         }
