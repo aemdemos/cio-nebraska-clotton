@@ -1,11 +1,11 @@
-# cio-nebraska-clotton
+# cio-nebraska
 
 This is a project created by AEMY.
 
 ## Environments
 
-- Preview: https://main--cio-nebraska-clotton--aemdemos.aem.page/
-- Live: https://main--cio-nebraska-clotton--aemdemos.aem.live/
+- Preview: https://main--cio-nebraska--aemdemos.aem.page/
+- Live: https://main--cio-nebraska--aemdemos.aem.live/
 
 ## Installation
 
@@ -23,4 +23,4 @@ npm run lint
 
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000/`)
-1. Open the `cio-nebraska-clotton` directory in your favorite IDE and start coding :)
+1. Open the `cio-nebraska` directory in your favorite IDE and start coding :)
