@@ -1,0 +1,42 @@
+
+.aiunknown-xq1tf8-469099412-wrapper {
+  position: relative; /* Allows for absolute positioning of child elements */
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  background-color: white; /* Sets background color to white */
+  display: flex; /* Enables flexbox for centering elements */
+  justify-content: center; /* Centers content horizontally */
+  align-items: flex-end; /* Aligns content to the bottom of the viewport */
+  overflow: hidden; /* Ensures no overflow from child elements */
+}
+
+.aiunknown-xq1tf8-469099412-wrapper > .aiunknown-xq1tf8-469099412 {
+  display: flex; /* Enables flexbox for child layout */
+  flex-direction: row; /* Ensures elements inside are laid out side by side */
+  justify-content: space-between; /* Adds spacing between side-by-side elements */
+  align-items: flex-start; /* Aligns items to the top of the container */
+  width: 100%; /* Full width of the wrapper */
+  height: 100%; /* Full height of the wrapper */
+  visibility: hidden; /* Hides all text content but keeps layout intact */
+}
+
+.aiunknown-xq1tf8-469099412-wrapper::after {
+  content: ''; /* Creates a pseudo-element for the circle */
+  position: absolute; /* Positions the circle relative to the wrapper */
+  bottom: 20px; /* Places the circle near the bottom */
+  left: 50%; /* Horizontally centers the circle */
+  transform: translateX(-50%); /* Adjusts centering */
+  width: 50px; /* Width of the circle */
+  height: 50px; /* Height of the circle */
+  background-color: #f5f5f5; /* Light gray background */
+  border-radius: 50%; /* Makes it a circle */
+  display: flex; /* Centers content inside the circle */
+  justify-content: center; /* Centers arrow horizontally */
+  align-items: center; /* Centers arrow vertically */
+}
+
+.aiunknown-xq1tf8-469099412-wrapper::after::before {
+  content: '\2193'; /* Unicode character for a downward arrow */
+  font-size: 18px; /* Size of the arrow */
+  color: #cccccc; /* Light gray arrow color */
+}
